@@ -6,14 +6,13 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{18DEED3E-7830-45F5-9789-D7CE0F46906A}</ProjectGuid>
+    <ProjectGuid>{452A60D7-A3D2-4DC5-A629-645CBED8AD89}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Day01_20140603</RootNamespace>
-    <AssemblyName>Day01-20140603</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile />
+    <RootNamespace>Day02_20140604</RootNamespace>
+    <AssemblyName>Day02-20140604</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -36,6 +35,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -52,7 +52,10 @@
   <ItemGroup>
     <Content Include="Image\background.jpg" />
     <Content Include="Image\snapshot.jpg" />
-    <Content Include="Page\whoIsAtmel.aspx" />
+    <Content Include="Page\Day02-20140604\Index.aspx" />
+    <Content Include="Page\Index.aspx" />
+    <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
+    <Content Include="Site\Site1.css" />
     <Content Include="Site\StyleSheet.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -63,11 +66,18 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Page\whoIsAtmel.aspx.cs">
+    <Compile Include="Page\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day01-20140603\whoIsAtmel.aspx.cs">
       <DependentUpon>whoIsAtmel.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page\whoIsAtmel.aspx.designer.cs">
+    <Compile Include="Page\Day01-20140603\whoIsAtmel.aspx.designer.cs">
       <DependentUpon>whoIsAtmel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,7 +91,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3560</DevelopmentServerPort>
+          <DevelopmentServerPort>7982</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

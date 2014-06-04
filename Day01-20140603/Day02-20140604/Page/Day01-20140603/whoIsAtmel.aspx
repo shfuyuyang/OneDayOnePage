@@ -19,6 +19,7 @@
         }
     </style>
     <link href="../Site/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../../Site/StyleSheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -34,6 +35,10 @@
                 PostBackUrl="http://luoqi.tiancity.com" />
             <br />
             If you want to konw the word of Mabinogi,click the image please.</div>
+            <div style="text-align: center">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Page/Index.aspx" 
+                    style="color: #000000; font-size: large; text-align: center">Return to the index</asp:HyperLink>
+            </div>
     </form>
 </body>
 </html>
