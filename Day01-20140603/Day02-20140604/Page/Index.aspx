@@ -16,6 +16,11 @@
             font-size: large;
             text-align: left;
         }
+        .style2
+        {
+            font-size: large;
+            color: #000000;
+        }
     </style>
     <link href="../Site/Site1.css" rel="stylesheet" type="text/css" />
 </head>
@@ -32,6 +37,10 @@
     <div class="style1">
         DAYS01-20140604:<asp:HyperLink ID="HyperLink2" runat="server" 
             NavigateUrl="~/Page/Index.aspx">Index.aspx</asp:HyperLink>
+    </div>
+    <div class="style2" style="text-align: left">DAYS02-20140605:<asp:HyperLink 
+            ID="HyperLink3" runat="server" 
+            NavigateUrl="~/Page/Day03-20140605/Download.aspx">Download.aspx</asp:HyperLink>
     </div>
     </form>
     
