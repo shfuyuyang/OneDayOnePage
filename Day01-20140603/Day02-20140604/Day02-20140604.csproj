@@ -54,6 +54,7 @@
     <Content Include="Image\GOSICK-image.jpg" />
     <Content Include="Image\snapshot.jpg" />
     <Content Include="Image\凉宫春日-image.jpg" />
+    <Content Include="login.aspx" />
     <Content Include="Novel\GOSICK\GOSICK S2.txt" />
     <Content Include="Novel\GOSICK\GOSICK前传.txt" />
     <Content Include="Novel\GOSICK\GOSICK前传3.txt" />
@@ -75,6 +76,10 @@
     <Content Include="Page\Day03-20140605\Download.aspx" />
     <Content Include="Page\Day03-20140605\GOSCIK下载页.aspx" />
     <Content Include="Page\Day03-20140605\凉宫下载页.aspx" />
+    <Content Include="Page\Day04-20140606\AllUser\AllUserPage.aspx" />
+    <Content Include="Page\Day04-20140606\Editros\EditorsPage.aspx" />
+    <Content Include="Page\Day04-20140606\Gust\GustPage.aspx" />
+    <Content Include="Page\Day04-20140606\loginPage.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -88,6 +93,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\Day03-20140605\Download.aspx.cs">
       <DependentUpon>Download.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,6 +120,34 @@
     </Compile>
     <Compile Include="Page\Day03-20140605\凉宫下载页.aspx.designer.cs">
       <DependentUpon>凉宫下载页.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\AllUser\AllUserPage.aspx.cs">
+      <DependentUpon>AllUserPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\AllUser\AllUserPage.aspx.designer.cs">
+      <DependentUpon>AllUserPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\Editros\EditorsPage.aspx.cs">
+      <DependentUpon>EditorsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\Editros\EditorsPage.aspx.designer.cs">
+      <DependentUpon>EditorsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\Gust\GustPage.aspx.cs">
+      <DependentUpon>GustPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\Gust\GustPage.aspx.designer.cs">
+      <DependentUpon>GustPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\loginPage.aspx.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day04-20140606\loginPage.aspx.designer.cs">
+      <DependentUpon>loginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

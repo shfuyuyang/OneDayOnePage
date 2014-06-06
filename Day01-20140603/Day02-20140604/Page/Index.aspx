@@ -35,12 +35,16 @@
             NavigateUrl="~/Page/Day01-20140603/whoIsAtmel.aspx">whoisatmel.aspx</asp:HyperLink>
     </div>
     <div class="style1">
-        DAYS01-20140604:<asp:HyperLink ID="HyperLink2" runat="server" 
+        DAYS02-20140604:<asp:HyperLink ID="HyperLink2" runat="server" 
             NavigateUrl="~/Page/Index.aspx">Index.aspx</asp:HyperLink>
     </div>
-    <div class="style2" style="text-align: left">DAYS02-20140605:<asp:HyperLink 
+    <div class="style2" style="text-align: left">DAYS03-20140605:<asp:HyperLink 
             ID="HyperLink3" runat="server" 
             NavigateUrl="~/Page/Day03-20140605/Download.aspx">Download.aspx</asp:HyperLink>
+    </div>
+    <div style="font-size: large; color: #000000; text-align: left">DAYS04-20140606:<asp:HyperLink 
+            ID="HyperLink4" runat="server" 
+            NavigateUrl="~/Page/Day04-20140606/loginPage.aspx">login.aspx</asp:HyperLink>
     </div>
     </form>
     
