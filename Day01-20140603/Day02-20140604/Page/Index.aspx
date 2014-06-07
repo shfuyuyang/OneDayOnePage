@@ -46,6 +46,9 @@
             ID="HyperLink4" runat="server" 
             NavigateUrl="~/Page/Day04-20140606/loginPage.aspx">login.aspx</asp:HyperLink>
     </div>
+    <div style="text-align: left; font-size: large; color: #000000">DAYS05-20140607:<asp:HyperLink 
+            ID="HyperLink5" runat="server" NavigateUrl="~/Page/Day05-20140607/music.aspx">music.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>

@@ -34,20 +34,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Image\background.jpg" />
@@ -55,6 +54,7 @@
     <Content Include="Image\snapshot.jpg" />
     <Content Include="Image\凉宫春日-image.jpg" />
     <Content Include="login.aspx" />
+    <Content Include="Music\初音 - 罗密欧与灰姑娘.mp3" />
     <Content Include="Novel\GOSICK\GOSICK S2.txt" />
     <Content Include="Novel\GOSICK\GOSICK前传.txt" />
     <Content Include="Novel\GOSICK\GOSICK前传3.txt" />
@@ -80,17 +80,21 @@
     <Content Include="Page\Day04-20140606\Editros\EditorsPage.aspx" />
     <Content Include="Page\Day04-20140606\Gust\GustPage.aspx" />
     <Content Include="Page\Day04-20140606\loginPage.aspx" />
+    <Content Include="Page\Day05-20140607\music.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
     <Content Include="Site\StyleSheet.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="wmp.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="login.aspx.cs">
@@ -149,6 +153,13 @@
     <Compile Include="Page\Day04-20140606\loginPage.aspx.designer.cs">
       <DependentUpon>loginPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\Day05-20140607\music.aspx.cs">
+      <DependentUpon>music.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day05-20140607\music.aspx.designer.cs">
+      <DependentUpon>music.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -165,7 +176,17 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
