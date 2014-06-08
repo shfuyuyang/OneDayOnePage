@@ -1,0 +1,12 @@
+﻿body
+{
+	background-color: #ADE7FC;
+}
+.menu
+{
+	background-color: #008085;
+	display: block;
+	color: #DDE4EC;
+	line-height: 1.35em;
+	white-space: nowrap;
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Page/Day06-20140608/masterHomepage.aspx" title="首页"  description="">
+        <siteMapNode url="~/Page/Day06-20140608/masterImagepage.aspx" title="图片"  description="" />
+        <siteMapNode url="~/Page/Day06-20140608/masterTextpage.aspx" title="文字"  description="" />
+    </siteMapNode>
+</siteMap>

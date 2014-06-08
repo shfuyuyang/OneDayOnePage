@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Day02_20140604.Page.Day06_20140608.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../../Site/UseForMaster.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="text-align: right; background-color: #FFFFFF">
+        <asp:Image ID="Image1" runat="server" Height="144px" 
+            ImageUrl="~/Image/电磁炮字体.png" style="text-align: left" />
+    </div>
+    <div style="background-color: #FFFFFF">
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+        </asp:SiteMapPath>
+        <asp:Menu ID="Menu1" runat="server" CssClass="menu" 
+            DataSourceID="SiteMapDataSource1" Orientation="Horizontal" 
+            StaticDisplayLevels="2">
+        </asp:Menu>
+    </div>
+    <div style="background-color: #FFFFFF">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style="background-color: #FFFFFF; text-align: center;">
+        Uncie Holmes Did it.Thanks for
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="http://to-a.ru/">http://to-a.ru/</asp:HyperLink>
+&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Page/Index.aspx">Click here to return Index</asp:HyperLink>
+    </div>
+    </form>
+</body>
+</html>
