@@ -53,6 +53,10 @@
         DAYS06-20140608:<asp:HyperLink ID="HyperLink6" runat="server" 
             NavigateUrl="~/Page/Day06-20140608/masterHomepage.aspx">masterHomepage.aspx</asp:HyperLink>
     </div>
+    <div style="font-size: large; color: #000000; text-align: left">
+        DAYS07-20140609:<asp:HyperLink ID="HyperLink7" runat="server" 
+            NavigateUrl="~/Page/Day07-20140609/upload.aspx">upload.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>
