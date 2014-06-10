@@ -84,7 +84,8 @@ namespace Day02_20140604.Page.Day07_20140609
             {
                 string fileName = ListBox1.SelectedValue;
                 string newUrl = "http:" + "//www.sherlockroiland.com/Files/" + fileName;
-                Response.Write("<script>window.open('" + newUrl + "','_blank')</script>");  //原窗口保留，另外新增一个新页面;
+                //Response.Write("<script>window.open('" + newUrl + "','_blank')</script>");  //原窗口保留，另外新增一个新页面;
+                Response.Redirect(Server.MapPath("~/Files/") + fileName);
             }
         }
 

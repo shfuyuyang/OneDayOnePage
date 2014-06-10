@@ -86,6 +86,7 @@
     <Content Include="Page\Day06-20140608\masterImagepage.aspx" />
     <Content Include="Page\Day06-20140608\masterTextpage.aspx" />
     <Content Include="Page\Day07-20140609\upload.aspx" />
+    <Content Include="Page\Day08-20140610\database.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -201,6 +202,13 @@
     <Compile Include="Page\Day07-20140609\upload.aspx.designer.cs">
       <DependentUpon>upload.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Page\Day08-20140610\database.aspx.cs">
+      <DependentUpon>database.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day08-20140610\database.aspx.designer.cs">
+      <DependentUpon>database.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,6 +242,7 @@
   <ItemGroup>
     <Content Include="Page\Day06-20140608\Site.Master" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
