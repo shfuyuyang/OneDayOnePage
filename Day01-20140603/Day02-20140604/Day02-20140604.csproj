@@ -88,6 +88,7 @@
     <Content Include="Page\Day07-20140609\upload.aspx" />
     <Content Include="Page\Day08-20140610\database.aspx" />
     <Content Include="Page\Day09-20140611\draw.aspx" />
+    <Content Include="Page\Day10-20140612\information.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -216,6 +217,13 @@
     </Compile>
     <Compile Include="Page\Day09-20140611\draw.aspx.designer.cs">
       <DependentUpon>draw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day10-20140612\information.aspx.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day10-20140612\information.aspx.designer.cs">
+      <DependentUpon>information.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
