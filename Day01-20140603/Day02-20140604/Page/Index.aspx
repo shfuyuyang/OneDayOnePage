@@ -69,6 +69,10 @@
         DAYS10-20140612:<asp:HyperLink ID="HyperLink10" runat="server" 
             NavigateUrl="~/Page/Day10-20140612/information.aspx">information.aspx</asp:HyperLink>
     </div>
+    <div style="color: #000000; text-align: left; font-size: large">
+        DAYS11-20140614:<asp:HyperLink ID="HyperLink11" runat="server" 
+            NavigateUrl="~/Page/Day11-20140614/cloudComputing.aspx">cloudComputing.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>
