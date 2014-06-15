@@ -13,6 +13,15 @@ namespace Day02_20140604.Page.Day11_20140614
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Process[] processes;
+            //Get the list of current active processes.
+            processes = System.Diagnostics.Process.GetProcesses();
+            //Grab some basic information for each process.
+            for (int i = 0; i < processes.Length - 1; i++)
+            {
+                ListBox1.Items.Add(processes[i].ProcessName);
+            }
+            //Display the process information to the user
 
         }
 
@@ -40,7 +49,52 @@ namespace Day02_20140604.Page.Day11_20140614
             {
 
             }
+            Button2_Click(null, null);
             return ;
+        }
+
+        private void getProcess()
+        {
+            string str = "";
+            Process[] processes;
+            //Get the list of current active processes.
+            processes = System.Diagnostics.Process.GetProcesses();
+            //Grab some basic information for each process.
+            Process process;
+            for (int i = 0; i < processes.Length - 1; i++)
+            {
+                process = processes[i];
+                str = str + Convert.ToString(process.Id) + " : " +
+                process.ProcessName + "\r\n";
+            }
+            //Display the process information to the user
+        }
+
+        protected void Button2_Click(object sender, System.EventArgs e)
+        {
+            ListBox1.Items.Clear();
+            Process[] processes;
+            //Get the list of current active processes.
+            processes = System.Diagnostics.Process.GetProcesses();
+            //Grab some basic information for each process.
+            for (int i = 0; i < processes.Length - 1; i++)
+            {
+                ListBox1.Items.Add(processes[i].ProcessName);
+            }
+            //Display the process information to the user
+        }
+
+        protected void Button3_Click(object sender, System.EventArgs e)
+        {
+            Process[] ps = Process.GetProcesses();
+            foreach (Process item in ps)
+            {
+                if (item.ProcessName == ListBox1.SelectedItem.ToString())
+                {
+                    item.Kill();
+                }
+            }
+            Button2_Click(null, null);
         }
     }
 }

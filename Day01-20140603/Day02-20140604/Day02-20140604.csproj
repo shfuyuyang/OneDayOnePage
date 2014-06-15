@@ -90,6 +90,7 @@
     <Content Include="Page\Day09-20140611\draw.aspx" />
     <Content Include="Page\Day10-20140612\information.aspx" />
     <Content Include="Page\Day11-20140614\cloudComputing.aspx" />
+    <Content Include="Page\Day12-20140615\worldCup.asmx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -232,6 +233,10 @@
     </Compile>
     <Compile Include="Page\Day11-20140614\cloudComputing.aspx.designer.cs">
       <DependentUpon>cloudComputing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day12-20140615\worldCup.asmx.cs">
+      <DependentUpon>worldCup.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

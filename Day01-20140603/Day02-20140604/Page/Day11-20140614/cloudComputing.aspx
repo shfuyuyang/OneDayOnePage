@@ -9,11 +9,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div style="text-align: center">
+    
+        <asp:Button ID="Button2" runat="server" onclick="Button2_Click" Text="刷新进行列表" />
     
         <asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
-            Text="Download" />
+            Text="运行getName进程" />
     
+        <asp:Button ID="Button3" runat="server" onclick="Button3_Click" Text="结束选中进程" />
+    
+    </div>
+    <div style="text-align: center">
+        <asp:ListBox ID="ListBox1" runat="server" Height="660px" 
+            style="text-align: left" Width="418px"></asp:ListBox>
     </div>
     </form>
 </body>
