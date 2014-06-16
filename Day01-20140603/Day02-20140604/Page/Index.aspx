@@ -73,6 +73,14 @@
         DAYS11-20140614:<asp:HyperLink ID="HyperLink11" runat="server" 
             NavigateUrl="~/Page/Day11-20140614/cloudComputing.aspx">cloudComputing.aspx</asp:HyperLink>
     </div>
+    <div style="text-align: left; color: #000000; font-size: large">
+        DAYS12-20140615:<asp:HyperLink ID="HyperLink12" runat="server" 
+            NavigateUrl="~/Page/Day12-20140615/worldCupSearch.aspx">worldCupSearch.aspx</asp:HyperLink>
+    </div>
+    <div style="text-align: left; color: #000000; font-size: large">
+        DAYS13-20140616:<asp:HyperLink ID="HyperLink13" runat="server" 
+            NavigateUrl="~/Page/Day13-20140616/connectMySQL.aspx">connectMySQL.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>

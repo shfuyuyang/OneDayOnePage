@@ -34,6 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="mysql.data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mysql.data.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -91,6 +95,8 @@
     <Content Include="Page\Day10-20140612\information.aspx" />
     <Content Include="Page\Day11-20140614\cloudComputing.aspx" />
     <Content Include="Page\Day12-20140615\worldCup.asmx" />
+    <Content Include="Page\Day12-20140615\worldCupSearch.aspx" />
+    <Content Include="Page\Day13-20140616\connectMySQL.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -238,6 +244,21 @@
       <DependentUpon>worldCup.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Page\Day12-20140615\worldCupSearch.aspx.cs">
+      <DependentUpon>worldCupSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day12-20140615\worldCupSearch.aspx.designer.cs">
+      <DependentUpon>worldCupSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day13-20140616\connectMySQL.aspx.cs">
+      <DependentUpon>connectMySQL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day13-20140616\connectMySQL.aspx.designer.cs">
+      <DependentUpon>connectMySQL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day13-20140616\MySqlHelper.cs" />
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

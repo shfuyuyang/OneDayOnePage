@@ -69,10 +69,10 @@
   </wsdl:binding>
   <wsdl:service name="worldCup">
     <wsdl:port name="worldCupSoap" binding="tns:worldCupSoap">
-      <soap:address location="http://localhost:7982/Page/Day12-20140615/worldCup.asmx" />
+      <soap:address location="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx" />
     </wsdl:port>
     <wsdl:port name="worldCupSoap12" binding="tns:worldCupSoap12">
-      <soap12:address location="http://localhost:7982/Page/Day12-20140615/worldCup.asmx" />
+      <soap12:address location="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

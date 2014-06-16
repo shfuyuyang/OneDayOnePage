@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Ru73SfPn2wEFFUgaPovZskx4aXQ=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="y/oO/ZfEdwuSIj2ERDUu5VRvXAk=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="worldCupSoap">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="worldCupSoap" contract="worldCupServer.worldCupSoap" bindingType="basicHttpBinding" address="http://localhost:7982/Page/Day12-20140615/worldCup.asmx" bindingConfiguration="worldCupSoap">
+    <endpoint name="worldCupSoap" contract="worldCupServer.worldCupSoap" bindingType="basicHttpBinding" address="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx" bindingConfiguration="worldCupSoap">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:7982/Page/Day12-20140615/worldCup.asmx</serializedValue>
+          <serializedValue>http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

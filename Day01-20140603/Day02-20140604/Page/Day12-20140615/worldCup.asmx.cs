@@ -8,7 +8,7 @@ namespace Day02_20140604.Page.Day12_20140615
     /// <summary>
     /// worldCup 的摘要说明
     /// </summary>
-    [WebService(Namespace = "http://tempuri.org/")]
+    [WebService(Namespace = "http://www.sherlockroiland.com")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
 
@@ -34,6 +34,12 @@ namespace Day02_20140604.Page.Day12_20140615
         public match[] getMatch(string team)
         {
             match[] matches = new match[6];     //一个小组最多6场比赛
+            matches[0] = new match();
+            matches[1] = new match();
+            matches[2] = new match();
+            matches[3] = new match();
+            matches[4] = new match();
+            matches[5] = new match();
 
             matches[0].homeCourt = "巴西";
             matches[1].homeCourt = "墨西哥";

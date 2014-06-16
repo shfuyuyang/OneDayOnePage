@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="785724d0-7eae-47d4-8f12-988bb67d8165" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="76c70457-8e3a-4217-a4ac-607567326931" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -18,11 +18,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:7982/Page/Day12-20140615/worldCup.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="worldCup.wsdl" MetadataType="Wsdl" ID="8ee4ebb7-85c7-457f-b350-d7e3040b2111" SourceId="1" SourceUrl="http://localhost:7982/Page/Day12-20140615/worldCup.asmx?wsdl" />
-    <MetadataFile FileName="worldCup.disco" MetadataType="Disco" ID="33587d1e-4541-4d0f-9002-4115e296c26f" SourceId="1" SourceUrl="http://localhost:7982/Page/Day12-20140615/worldCup.asmx?disco" />
+    <MetadataFile FileName="worldCup.wsdl" MetadataType="Wsdl" ID="262009b6-91b0-42af-9b8a-369760cfda07" SourceId="1" SourceUrl="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx?wsdl" />
+    <MetadataFile FileName="worldCup.disco" MetadataType="Disco" ID="da8e0894-f70d-4075-a4a9-cf729970a498" SourceId="1" SourceUrl="http://www.sherlockroiland.com/Page/Day12-20140615/worldCup.asmx?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
