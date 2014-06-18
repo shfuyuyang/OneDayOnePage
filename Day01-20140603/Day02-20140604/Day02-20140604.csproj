@@ -97,6 +97,7 @@
     <Content Include="Page\Day12-20140615\worldCup.asmx" />
     <Content Include="Page\Day12-20140615\worldCupSearch.aspx" />
     <Content Include="Page\Day13-20140616\connectMySQL.aspx" />
+    <Content Include="Page\Day14-20140618\baiduMap.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -259,6 +260,13 @@
       <DependentUpon>connectMySQL.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Day13-20140616\MySqlHelper.cs" />
+    <Compile Include="Page\Day14-20140618\baiduMap.aspx.cs">
+      <DependentUpon>baiduMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day14-20140618\baiduMap.aspx.designer.cs">
+      <DependentUpon>baiduMap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Page\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
