@@ -85,6 +85,10 @@
         DAYS14-20140618:<asp:HyperLink ID="HyperLink14" runat="server" 
             NavigateUrl="~/Page/Day14-20140618/baiduMap.aspx" style="text-align: left">baiduMap.aspx</asp:HyperLink>
     </div>
+    <div style="text-align: left; color: #000000; font-size: large">
+        DAYS15-20140621:<asp:HyperLink ID="HyperLink15" runat="server" 
+            NavigateUrl="~/Page/Day15-20140621/chatRoom.aspx">chatRoom.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>

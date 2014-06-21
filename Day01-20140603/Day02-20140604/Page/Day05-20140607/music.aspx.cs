@@ -18,6 +18,7 @@ namespace Day02_20140604.Page.Day05_20140607
         {
             //var mediaPlugin = document.getElementById("MediaPlayer");
             //mediaPlugin.controls.play();
+            
         }
     }
 }
