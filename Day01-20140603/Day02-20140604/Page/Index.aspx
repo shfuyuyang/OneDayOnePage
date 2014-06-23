@@ -89,6 +89,10 @@
         DAYS15-20140621:<asp:HyperLink ID="HyperLink15" runat="server" 
             NavigateUrl="~/Page/Day15-20140621/chatRoom.aspx">chatRoom.aspx</asp:HyperLink>
     </div>
+    <div style="text-align: left">
+        DAYS16-20140622:<asp:HyperLink ID="HyperLink16" runat="server" 
+            NavigateUrl="~/Page/Day16-20140622/jump.aspx">jump.aspx</asp:HyperLink>
+    </div>
     </form>
     
 </body>

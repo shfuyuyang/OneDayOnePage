@@ -100,7 +100,8 @@
     <Content Include="Page\Day14-20140618\baiduMap.aspx" />
     <Content Include="Page\Day15-20140621\chatlog.txt" />
     <Content Include="Page\Day15-20140621\chatRoom.aspx" />
-    <Content Include="Page\Day16-20140622\WebForm1.aspx" />
+    <Content Include="Page\Day16-20140622\jump.aspx" />
+    <Content Include="Page\Day17-20140623\WebForm1.aspx" />
     <Content Include="Page\Index.aspx" />
     <Content Include="Page\Day01-20140603\whoIsAtmel.aspx" />
     <Content Include="Site\Site1.css" />
@@ -277,11 +278,18 @@
     <Compile Include="Page\Day15-20140621\chatRoom.aspx.designer.cs">
       <DependentUpon>chatRoom.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page\Day16-20140622\WebForm1.aspx.cs">
+    <Compile Include="Page\Day16-20140622\jump.aspx.cs">
+      <DependentUpon>jump.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Day16-20140622\jump.aspx.designer.cs">
+      <DependentUpon>jump.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Day17-20140623\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page\Day16-20140622\WebForm1.aspx.designer.cs">
+    <Compile Include="Page\Day17-20140623\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Index.aspx.cs">
