@@ -93,7 +93,13 @@
         DAYS16-20140622:<asp:HyperLink ID="HyperLink16" runat="server" 
             NavigateUrl="~/Page/Day16-20140622/jump.aspx">jump.aspx</asp:HyperLink>
     </div>
+    <div style="text-align: left">
+        DAYS17-20140623:</div>
+        <div style="text-align: left">
+            DAYS18-20140624:<asp:HyperLink ID="HyperLink17" runat="server" 
+                NavigateUrl="~/Page/Day18-20140624/video.aspx">video.aspx</asp:HyperLink>
+        </div>
     </form>
-    
+
 </body>
 </html>
